@@ -1,12 +1,13 @@
 def find_even_values(src)
-   counter=0 
-  while counter<src.length do 
-  element_index=0 
-  while element_index<src[counter].length do 
-    if src[counter][element_index].even?   
-      p src[counter][element_index]
+   even_numbers = []
+    element_index = 0
+end 	    while element_index < src[row_index].count do
+        if src[row_index][element_index].even?
+           p src[row_index][element_index]
+        end
+        element_index += 1
     end
-    element_index+=1 
-  end 
-  counter+=1 
+    row_index += 1
+  end
+end
 end 
